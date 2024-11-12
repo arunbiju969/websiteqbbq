@@ -1,0 +1,496 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Applight Template By W3 Template</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<link rel="stylesheet" href={% static "css/animate.css" %}>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href={%static "css/style.css" %}>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<!-- Font Google -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container"> <a class="navbar-brand navbar-logo" href="#"> <img src={% static "media/logo.png" %} alt="logo" class="logo-1" style="width: 100px; height: auto;"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="fas fa-bars"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"> <a class="nav-link" href="" data-scroll-nav="0">Home</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1">Our Story</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="2">Menu</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="3">Our Team</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="4">Recent Reviews</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="5">Faq</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="6">Contact</a> </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="banner" data-scroll-index='0'>
+  <div class="banner-overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+          <div class="banner-text">
+            <h2 class="white">QBBQ</h2>
+            <p class="banner-text white">We smoke all our meats low and slow to create that beautiful smoke ring that is true southern BBQ. This may create the meats to sometimes look pink and undercooked. We would like to reassure you that all meats are cooked to proper temperature.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12"> <img src={% static "media/logo.png" %} class="img-fluid wow fadeInUp"/> </div>
+      </div>
+    </div>
+  </div>
+  <span class="svg-wave"> <img class="svg-hero" src="{% static "media/readersChoice-150x150.png" %}"> </span> </section>
+
+
+<section class="about section-padding prelative" data-scroll-index='1'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Our Story</h3>
+          <span class="line"></span>
+          <p>Q BBQ Public House is Cambridge, Ontario’s first smokehouse, serving up those southern favourites with a side of fresh corn bread.
+
+            From our Sweet Caroline Burger to our AAA New York Steak, everything is smoked, cooked and prepared to perfection. Enjoy that southern comfort food in your own backyard when you come to Q BBQ Public House. We use apple wood and hickory for all our smoking to give it that deep southern flavour.
+
+            We smoke all our meats low and slow to create that beautiful smoke ring that is true southern BBQ. This may create the meats to sometimes look pink and undercooked. We would like to reassure you that all meats are cooked to proper temperature.</p>
+        </div>
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> <i class="fa fa-heart" aria-hidden="true"></i>
+                <h5>SMOKALICIOUS!</h5>
+                <p>When you think of the south, you think of home cooked meals smoked to perfection. That’s what you can expect here at Q BBQ Public House.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+                <div class="icon-box wow fadeInUp" data-wow-delay="0.4s"> <i class="fa fa-utensils" aria-hidden="true"></i>
+                <h5>ARRIVE HUNGRY!</h5>
+                <p>Phasellus lobortis justo a magna facilisis, in commodo tellus rutrum. Sed vitae condimentum nulla.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.6s"> <i class="fa fa-smile" aria-hidden="true"></i>
+                <h5>SMOKETASTIC</h5>
+                <p>Our Texas Beef Brisket and our Smoked Jumbo Wing Platter are just a few of our smoked favourites that make our customers crave from the time they read our menu ‘til its presented at the table.</p>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="about-btn">Learn More</a> </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="video-section prelative text-center white">
+  <div class="section-padding video-overlay">
+    <div class="container">
+      <h3>Watch Now</h3>
+      <i class="fa fa-play" id="video-icon" aria-hidden="true"></i>
+      <div class="video-popup">
+        <div class="video-src">
+          <div class="iframe-src">
+            <iframe src="" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="feature section-padding" data-scroll-index='2'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Menu</h3>
+          <span class="line"></span>
+          <h4>CLASSIC BREAKFAST<h4>
+            <p>Served with hash browns, toast & choice of baked beans or oatmeal.</p>
+        </div>
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+                <div class="media-body text-left media-right-margin">
+                  <h5>3 EGG CLASSIC</h5>
+                  <p>3 Eggs served with hash browns, toast & choice of beans or oatmeal.</p>
+                  <p class="price" style="font-size: 1.2em;">$6.99</p>
+                </div>
+              </div>
+            <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
+              <div class="media-body text-left media-right-margin">
+                <h5>MEGA BREAKFAST</h5>
+                <p>Classic served with 2 bacon, 2 ham, 2 sausages & choice of French toast or pancakes.</p>
+                <p class="price" style="font-size: 1.2em;">$13.99</p>
+              </div>
+            </div>
+            <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
+              <div class="media-body text-left media-right-margin">
+                <h5>DINER BREAKFAST</h5>
+                <p>Eggs with choice of bacon, ham or
+                  sausage</p>
+                <p class="price" style="font-size: 1.2em;">$8.99</p>
+              </div>
+            </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+                <div class="media-body text-left media-right-margin">
+                  <h5>STEAK & EGGS</h5>
+                  <p>Classic served with 8 oz. AAA New York</p>
+                  <p class="price" style="font-size: 1.2em;">$18.99</p>
+                </div>
+              </div>
+            <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
+              <div class="media-body text-left media-right-margin">
+                <h5>SMOKED PEAMEAL</h5>
+                <p>Classic served with smoked peameal.</p>
+                <p class="price" style="font-size: 1.2em;">$13.99</p>
+              </div>
+            </div>
+            <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
+              <div class="media-body text-left media-right-margin">
+                <h5>PROTEIN BREAKFAST</h5>
+                <p>3 Eggs, 2 bacon, 2 ham and 2 sausages, sliced tomatoes & side of cottage cheese.</p>
+                <p class="price" style="font-size: 1.2em;">$16.99</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="sectioner-header text-center">
+          <span class="line"></span>
+          <h4>CLASSIC BREAKFAST<h4>
+            <p>Served with hash browns, toast & choice of baked beans or oatmeal.</p>
+        </div>
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+                <div class="media-body text-left media-right-margin">
+                  <h5>3 EGG CLASSIC</h5>
+                  <p>3 Eggs served with hash browns, toast & choice of beans or oatmeal.</p>
+                  <p class="price" style="font-size: 1.2em;">$6.99</p>
+                </div>
+              </div>
+            <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
+              <div class="media-body text-left media-right-margin">
+                <h5>MEGA BREAKFAST</h5>
+                <p>Classic served with 2 bacon, 2 ham, 2 sausages & choice of French toast or pancakes.</p>
+                <p class="price" style="font-size: 1.2em;">$13.99</p>
+              </div>
+            </div>
+            <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
+              <div class="media-body text-left media-right-margin">
+                <h5>DINER BREAKFAST</h5>
+                <p>Eggs with choice of bacon, ham or
+                  sausage</p>
+                <p class="price" style="font-size: 1.2em;">$8.99</p>
+              </div>
+            </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+                <div class="media-body text-left media-right-margin">
+                  <h5>STEAK & EGGS</h5>
+                  <p>Classic served with 8 oz. AAA New York</p>
+                  <p class="price" style="font-size: 1.2em;">$18.99</p>
+                </div>
+              </div>
+            <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
+              <div class="media-body text-left media-right-margin">
+                <h5>SMOKED PEAMEAL</h5>
+                <p>Classic served with smoked peameal.</p>
+                <p class="price" style="font-size: 1.2em;">$13.99</p>
+              </div>
+            </div>
+            <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
+              <div class="media-body text-left media-right-margin">
+                <h5>PROTEIN BREAKFAST</h5>
+                <p>3 Eggs, 2 bacon, 2 ham and 2 sausages, sliced tomatoes & side of cottage cheese.</p>
+                <p class="price" style="font-size: 1.2em;">$16.99</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team section-padding" data-scroll-index='3'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Our Team</h3>
+          <span class="line"></span>
+            <p>Meet our dedicated team who work tirelessly to bring you the best BBQ experience.</p>
+          </div>
+          <div class="section-content text-center">
+            <div class="row">
+            <div class="col-md-4">
+              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="https://img.icons8.com/?size=100&id=42384&format=png&color=000000" class="img-fluid"/>
+              <h4>Team member#1</h4>
+              <p>Head Chef</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-detail wow bounce" data-wow-delay="0.4s"> <img src="https://img.icons8.com/?size=100&id=42384&format=png&color=000000" class="img-fluid"/>
+              <h4>Team member#2</h4>
+              <p>General Manager</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-detail wow bounce" data-wow-delay="0.6s"> <img src="https://img.icons8.com/?size=100&id=42384&format=png&color=000000" class="img-fluid"/>
+                <h4>Team member#3</h4>
+                <p>Web Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="testimonial section-padding" data-scroll-index='4'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center white">
+          <h3>Recent Reviews</h3>
+          <span class="line"></span>
+          <p class="white">The BBQ here is absolutely amazing! The flavors are rich and the meat is tender. Highly recommend the brisket!</p>
+        </div>
+    
+      <div class="section-content">
+        <div class="row">
+          <div class="offset-md-2 col-md-8 col-sm-12">
+            <div class="slider">
+              <div class="slider-item">
+                <div class="test-img"><img src="https://img.icons8.com/?size=100&id=42384&format=png&color=000000" alt="Placeholder" width="157" height="157"></div>
+                <i class="fa fa-quote-left"></i>
+                <div class="test-text"><span class="title"><span>John Michal</span> Digital Designer</span> The BBQ here is absolutely amazing! The flavors are rich and the meat is tender. Highly recommend the brisket!</div>
+              </div>
+              <div class="slider-item">
+                <div class="test-img"><img src="images/user3.jpg" alt="Placeholder" width="157" height="157"></div>
+                <div class="test-text"><span class="title"><span>Steve Smith</span> App User</span> Euismod tincidunt ut laoreet dolore magna aliquam eratvo lutpat. Ut wisi enim ad minim veniam, quis nostrud v</div>
+              </div>
+              <div class="slider-item">
+                <div class="test-img"><img src="images/user3.jpg" alt="Placeholder" width="157" height="157"></div>
+                <div class="test-text"><span class="title"><span>Gordon Shaw</span> Blogger</span> Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratvo lutpat. Ut wisi enim ad minim veniam, quis nostrud v</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="faq section-padding prelative" data-scroll-index='5'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Frequently Asked Questions</h3>
+          <span class="line"></span>
+          <p>Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.</p>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
+              <h4>Nam tellus felis, dignissim quis dui ?</h4>
+              <p>Suspendisse fermentum placerat enim, at pellentesque augue. Nullam elit est, ultricies et tellus ac, euismod placerat orci. Donec commodo.</p>
+            </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
+              <h4>Mauris scelerisque, dui non faucibus vulputate ?</h4>
+              <p>Sed tempus in neque ac rhoncus. Phasellus vehicula, erat tempor malesuada egestas, mauris tellus malesuada erat, at vestibulum nulla ex et lectus. Nullam elit est, ultricies et tellus ac, euismod placerat orci.</p>
+            </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
+              <h4>Nullam elit est, ultricies et tellus ac ?</h4>
+              <p>Ut vestibulum euismod aliquet. Quisque nec malesuada nibh. Vivamus euismod nunc eu leo faucibus, vel elementum justo posuere. In sed varius nisi. Curabitur id porta ipsum, et vestibulum dui.</p>
+            </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
+              <h4>Suspendisse fermentum placerat enim, at pellentesque augue elit est ?</h4>
+              <p>Vivamus euismod nunc eu leo faucibus, vel elementum justo posuere. In sed varius nisi.</p>
+            </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
+              <h4>Ut vestibulum euismod aliquet. Quisque nec malesuada nibh ?</h4>
+              <p>Suspendisse fermentum placerat enim, at pellentesque augue. Nullam elit est, ultricies et tellus ac, euismod placerat orci. Donec commodo dapibus congue.</p>
+            </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
+              <h4>Donec commodo dapibus congue ?</h4>
+              <p>Nullam elit est, ultricies et tellus ac, euismod placerat orci fermentum placerat enim, at pellentesque augue. Nullam elit est, ultricies et tellus ac, euismod placerat orci. Donec commodo dapibus congue.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="contact section-padding" data-scroll-index='6'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Contact us</h3>
+          <span class="line"></span>
+          <p>Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.</p>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8">
+              <form id="contact_form" action="">
+                <div class="row">
+                  <div class="col">
+                    <input type="text" id="your_name" class="form-input w-100" name="full-name" placeholder="Full Name" required>
+                  </div>
+                  <div class="col">
+                    <input type="email" id="email" class="form-input w-100" name="email" placeholder="Email" required>
+                  </div>
+                </div>
+                <input type="text" id="subject" class="form-input w-100" name="subject" placeholder="Subject">
+                <textarea class="form-input w-100" id="message" placeholder="Message" name="message"></textarea>
+                <button class="btn-grad w-100 text-uppercase" type="submit" name="button">submit</button>
+              </form>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <div class="contact-info white">
+                <div class="contact-item media"> <i class="fa fa-map-marker-alt media-left media-right-margin"></i>
+                  <div class="media-body">
+                    <p class="text-uppercase">Address</p>
+                    <p class="text-uppercase">Kerala, India</p>
+                  </div>
+                </div>
+                <div class="contact-item media"> <i class="fa fa-mobile media-left media-right-margin"></i>
+                  <div class="media-body">
+                    <p class="text-uppercase">Phone</p>
+                    <p class="text-uppercase"><a class="text-white" href="tel:+15173977100">009900990099</a> </p>
+                  </div>
+                </div>
+                <div class="contact-item media"> <i class="fa fa-envelope media-left media-right-margin"></i>
+                  <div class="media-body">
+                    <p class="text-uppercase">E-mail</p>
+                    <p class="text-uppercase"><a class="text-white" href="mailto:abcdefg@gmail.com">mail@sudheeshksad.shop</a> </p>
+                  </div>
+                </div>
+                <div class="contact-item media"> <i class="fa fa-clock media-left media-right-margin"></i>
+                  <div class="media-body">
+                    <p class="text-uppercase">Working Hours</p>
+                    <p class="text-uppercase">Mon-Fri 9.00 AM to 5.00PM.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<footer class="footer-copy">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <p>2024 &copy; </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
+<!-- scrollIt js --> 
+<script src={% static "js/scrollIt.min.js" %}></script> 
+<script src={% static "js/wow.min.js" %}></script> 
+<script>
+	wow = new WOW();
+	wow.init();
+$(document).ready(function(e) {
+
+	$('#video-icon').on('click',function(e){
+	e.preventDefault();
+	$('.video-popup').css('display','flex');
+	$('.iframe-src').slideDown();
+	});
+	$('.video-popup').on('click',function(e){
+	var $target = e.target.nodeName;
+	var video_src = $(this).find('iframe').attr('src');
+	if($target != 'IFRAME'){
+	$('.video-popup').fadeOut();
+	$('.iframe-src').slideUp();
+	$('.video-popup iframe').attr('src'," ");
+	$('.video-popup iframe').attr('src',video_src);
+	}
+	});
+
+	$('.slider').bxSlider({
+	pager: false
+	});
+});
+    
+$(window).on("scroll",function () {
+
+	var bodyScroll = $(window).scrollTop(),
+	navbar = $(".navbar");
+	
+	if(bodyScroll > 50){
+	$('.navbar-logo img').attr('src','{% static "media/logo.png" %}');
+	navbar.addClass("nav-scroll");
+
+}else{
+	$('.navbar-logo img').attr('src','{% static "media/logo.png" %}');
+	navbar.removeClass("nav-scroll");
+}
+
+});
+$(window).on("load",function (){
+	var bodyScroll = $(window).scrollTop(),
+	navbar = $(".navbar");
+	
+  if(bodyScroll > 50){
+    $('.navbar-logo img').attr('src','{% static "media/logo.png" %}');
+    navbar.addClass("nav-scroll");
+  }else{
+    $('.navbar-logo img').attr('src','{% static "media/logo.png" %}');
+    navbar.removeClass("nav-scroll");
+  }
+
+	$.scrollIt({
+	
+	easing: 'swing',      // the easing function for animation
+	scrollTime: 900,       // how long (in ms) the animation takes
+	activeClass: 'active', // class given to the active nav element
+	onPageChange: null,    // function(pageIndex) that is called when page is changed
+	topOffset: -63
+	});
+});
+
+</script>
+</body>
+</html>
