@@ -18,7 +18,6 @@ myenv/
 *.pyc
 __pycache__/
 db.sqlite3
-media
 
 # Tailwind CSS
 node_modules/
